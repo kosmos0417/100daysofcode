@@ -1,0 +1,6 @@
+name, cost, weight, quanity = input(), int(input()), int(input()), int(input())
+print('Чек')
+print(f'{name} - {weight}кг - {cost}руб/кг')
+print(f'Итого:', int(cost * weight), 'руб')
+print(f'Внесено: {quanity}руб')
+print(f'Сдача {int(quanity - (cost * weight))}руб')
